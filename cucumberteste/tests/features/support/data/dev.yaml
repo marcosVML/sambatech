@@ -1,0 +1,8 @@
+url: 'https://webapplocal.getrak.com'
+users:
+  admin:
+    login: 'admin_dev@qaninja.com.br'
+    password: 'secret'
+  analyst:
+    login: 'analyst_dev@teste.com'
+    password: 'test@123'
