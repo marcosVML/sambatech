@@ -9,9 +9,9 @@ Este documento tem como finalidade explicar como foi realizado os testes e como 
 A primeira fase do teste que foi os teste manuais na aplicação foram realizados seguindo a metodologia BDD similar ao que foi aplicado na fase de automação.
 Os arquivos BDD com os descritivos da primeira fase se encontra dentro do diretorio sambatech/cucumberteste/tests/features/specs/
 
-Nele sera encontrado o cenario aplicado para a execução do teste manual, os criterios de aceitação levantados, uma tag @melhorias contendo uma possivel melhoria encontrada para o processo.
+Nele sera encontrado o cenario aplicado para a execução do teste manual, os criterios de aceitação levantados.
 
-Os bugs encontrados durante o primeira fase estão descritos como issues dentro do projeto do github
+Os bugs e melhorias encontrados durante o primeira fase estão descritos como issues dentro do projeto do github e indentificadas por tags.
 
 ---
 
