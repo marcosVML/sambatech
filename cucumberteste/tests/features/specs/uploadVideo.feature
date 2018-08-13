@@ -5,8 +5,8 @@ Funcionalidade: Upload de video
     Posso execultar um upload de video
     Para disponibiliza-los aos meus clientes
 
-Contexto: Acesso a página cliente
-   * Usuario logado acessa de upload de video
+Contexto: Acesso a página de upload
+   * Usuario logado acessa a pagina de upload de video
 
 Cenario: Realizar um upload com sucesso
 
