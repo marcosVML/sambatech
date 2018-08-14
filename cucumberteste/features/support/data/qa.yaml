@@ -1,0 +1,5 @@
+url: 'http://web1.qa.sambatech.com:10000'
+users:
+  teste:
+    email: 'avaliacao_qa_samba@sambatech.com.br'
+    password: '123456789'
