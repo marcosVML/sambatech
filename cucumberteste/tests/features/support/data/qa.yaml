@@ -1,5 +1,0 @@
-url: 'https://www.maxmilhas.com.br/'
-users:
-  cliente:
-    login: 'teste cucumber cliente'
-    password: '123'

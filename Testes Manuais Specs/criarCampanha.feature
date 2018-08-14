@@ -14,4 +14,10 @@ Cenario: criar uma campanha
     Quando carrego este video na funcionalidade campanha 
         E preencho todas as informações adicionais
     Então consigo criar a campanha com links direcionados para minhas webpaginas
-        E acompanhar a monetização desta campanha
+        E consigo visualizar a monetização desta campanha
+
+Cenario: tentar criar campanha um formato de arquivo não suportavel 
+
+    Dado que eu tenha um arquivo .pdf 
+    Quando carrego este video na funcionalidade campanha 
+    Então o sistema retorna a mensagem informando que o tipo de arquivo não e suportavel

@@ -20,4 +20,4 @@ Cenario: Upload de arquivo não suportado pela plataforma
     Dado que eu tenha o video "teste.bin" 
     Quando faço o upload desse video para minha conta
     Então o sistema retorna uma mensagem de erro
-        E o video não aparece na minha listagem de videos.
+        E o video não aparece na minha listagem de videos.  
