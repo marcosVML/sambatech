@@ -17,7 +17,7 @@ Quando(/^faço login$/) do
 end
 
 Então(/^vejo o painel$/) do
-  sleep 25
+  sleep 20
   expect(login.has_painel?).to be true
 end
 
@@ -29,7 +29,7 @@ Dado(/^que eu tenho o usuário "([^"]*)" e "([^"]*)"$/) do |email, senha|
       :email => email,
       :password => senha
   )
-  sleep 2
+  sleep 3
 end
 
 Então(/^vejo a mensagem "([^"]*)"$/) do |message|

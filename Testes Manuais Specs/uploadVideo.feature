@@ -21,3 +21,10 @@ Cenario: Upload de arquivo não suportado pela plataforma
     Quando faço o upload desse video para minha conta
     Então o sistema retorna uma mensagem de erro
         E o video não aparece na minha listagem de videos.  
+
+Cenario: Realizando download do video carregado
+
+    Dado que eu tenha um video carregado na minha plataforma
+    Quando acessa o funcionalidade de conteudo
+        E clico em "Download Raw"
+    Então o sistema realiza o download do arquivo para a minha maquina 
