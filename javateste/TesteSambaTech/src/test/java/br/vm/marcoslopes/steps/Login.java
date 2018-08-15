@@ -22,7 +22,7 @@ import cucumber.api.java.pt.Quando;
 public class Login {
 	
 	private WebDriver driver;
-	
+		
 	@Dado("^que eu acesso a aplicação$")
 	public void queEuAcessoAAplicação() throws Throwable {
 		driver = new ChromeDriver();
@@ -52,22 +52,17 @@ public class Login {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class='muted']")));
 		String texto = driver.findElement(By.xpath("//span[@class='muted']")).getText();
 		Assert.assertEquals("aa $$$ 123", texto);
+		wait.until(ExpectedConditions.elementToBeClickable(By.id("navbar-user-avatar")));
+		driver.findElement(By.id("navbar-user-avatar")).click();
+		driver.findElement(By.id("logout")).click();
 	}
-
-	@Dado("^que eu tenho o usuário \"([^\"]*)\" e \"([^\"]*)\"$")
-	public void queEuTenhoOUsuárioE(String arg1, String arg2) throws Throwable {
-		driver.findElement(By.id("inputEmail")).sendKeys(arg1);
-		driver.findElement(By.id("inputPassword")).sendKeys(arg2);
-	}
-
+	
 	@Então("^vejo a mensagem \"([^\"]*)\"$")
 	public void vejoAMensagem(String arg1) throws Throwable {
 		WebDriverWait wait = new WebDriverWait(driver, 25);
 		wait.until(ExpectedConditions.elementToBeClickable(By.id("password_incorrect")));
 		String texto = driver.findElement(By.id("password_incorrect")).getText();
 		Assert.assertEquals(arg1, texto);
-		driver.findElement(By.id("navbar-user-avatar")).click();
-		driver.findElement(By.id("logout")).click();
 	}
 	
 	@After
