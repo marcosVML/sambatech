@@ -5,7 +5,7 @@ class UploadPage <SitePrism::Page
     section :nav, Sections::NavBar, '.navbar-form'
 
     element :upload, '#uploader'
-    element :buttonDw, '.downloadRaw'
+    element :buttonDw, 'a[data-mediaid="8dce8954424cb3f99078ecf81f6fcd10"]'
 
     element :lista, '#media-list-container'
     element :mensagem, '#elemento'
