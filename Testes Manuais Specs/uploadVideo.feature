@@ -10,7 +10,7 @@ Contexto: Acesso a página de upload
 
 Cenario: Realizar um upload com sucesso
 
-    Dado que eu tenha o video "teste.mp4" 
+    Dado que eu tenha um arquivo suportavel pela plataforma 
     Quando faço o upload desse video para minha conta
     Então consigo vizualiza-lo na lista de videos
         E posso disponibilizado para meus clientes.
