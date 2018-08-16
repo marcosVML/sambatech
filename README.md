@@ -83,3 +83,7 @@ Todos os cenarios e especificações realizadas podem ser encontradas dentro da 
 Toda condificação do teste automatizado pode ser encontrada dentro do pacote steps (br.vm.marcoslopes.steps) e a configurações do execultavel do testes esta presente no arquivo RunnerTest (br.vm.marcoslopes.runner)
 
 Demais pastas são ultilizadas como strutura de configuração e suporte para o projeto. 
+
+
+# Observação
+Na raiz do repositorio sambatech se encontra o arquivo PDF contendo as considerações finais que levantei apos execução deste processo de testes.
