@@ -1,9 +1,9 @@
 #language: pt
 
-Funcionalidade: Upload de video
+Funcionalidade: Conteudo de video
     Sendo um usuário do sistema http://web1.qa.sambatech.com:10000/auth/login
-    Posso execultar um upload de video
-    Para disponibiliza-los aos meus clientes
+    Posso execultar um download
+    Para salvar na minha maquina
 
 Contexto: Acesso a página de upload
    * Usuario logado acessa a pagina de conteudo
