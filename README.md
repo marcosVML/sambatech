@@ -73,8 +73,9 @@ Apos a execução destes 5 passos, o ambiente para execução dos testes esta pr
 
 ## Rodando os Teste em Java
 
-1. Abrar o arquivo runner (src/test/java/br.vm.marcoslopes.runner/RunnerTest.java).
-2. Execulte o arquivo ultilizando o junit.
+1. Abra a IDE Eclipse 
+2. Abrar o arquivo runner (src/test/java/br.vm.marcoslopes.runner/RunnerTest.java).
+3. Execulte o arquivo ultilizando o junit.
 
 ## Estrutura Dos Testes
 
